@@ -22,7 +22,7 @@ export default function Read() {
     }
 
     const getData = () => {
-        axios.get(`https://60fbca4591156a0017b4c8a7.mockapi.io/fakeData`)
+        axios.get(`https://60fbca4591156a0017b4c8a7.mockapi.io/fakeData/1`)
             .then((getData) => {
                 setAPIData(getData.data);
             })
